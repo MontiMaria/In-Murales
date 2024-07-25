@@ -1,4 +1,4 @@
-/* Estilos generales del cuerpo de la página */
+/* Estilos generales del cuerpo de la pagina */
 
 body{
     background-color: rgba(250, 235, 215, 0.527);
@@ -11,7 +11,7 @@ header {
     padding: 20px;
 }
 
-/* Estilos de la barra de navegación */
+/* Estilos de la barra de navegacion */
 
 .nav {
     font-size: 1.1rem;
@@ -28,7 +28,7 @@ header {
     color: rgb(108, 108, 108);
 }
 
-/* Estilos de los párrafos en el contenido principal */
+/* Estilos de los parrafos en el contenido principal */
 
 p {
     font-size: 18px;
@@ -54,6 +54,8 @@ h3 {
     align-items: center;
     text-align: center;
 }
+
+/* Estilos de las columnas y cards*/
 
 .col {
     justify-content: center;
@@ -81,6 +83,8 @@ h3 {
     margin: 1rem; 
 }
 
+/* Estilos de listas*/
+
 ul {
     text-decoration: none; 
     margin: 0 auto; 
@@ -103,7 +107,7 @@ ul {
 /* Estilos de los elementos del carousel */
 
 .carousel-item {
-    /* Transición suave para elementos del carousel */
+    /* Transicion suave para elementos del carousel */
     transition:  1.5s ease, opacity 1s ease-out;
 }
 
@@ -132,7 +136,7 @@ main {
     background-color: #D5AD92;
 }
 
-/* Estilos del pie de página */
+/* Estilos del pie de pagina */
 
 footer {
     font-family: Roboto mono;
