@@ -66,8 +66,8 @@ h3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding-left: 14%;
-    padding-right: 14%;
+    padding-left: 16%;
+    padding-right: 11%;
 }
 
 .card {
