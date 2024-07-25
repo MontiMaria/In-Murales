@@ -1,0 +1,154 @@
+/* Estilos generales del cuerpo de la página */
+
+body{
+    background-color: rgba(250, 235, 215, 0.527);
+}
+
+/* Estilos del header */
+
+header {
+    background-color: #d5ad9282 ; 
+    padding: 20px;
+}
+
+/* Estilos de la barra de navegación */
+
+.nav {
+    font-size: 1.1rem;
+    padding: 0; 
+    list-style: none; 
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover {
+    color: rgb(108, 108, 108);
+}
+
+/* Estilos de los párrafos en el contenido principal */
+
+p {
+    font-size: 18px;
+}
+
+.box {
+    font-size: 18px;
+    padding: 1rem;
+    margin-left: 8%; 
+    margin-right: 8%; 
+    text-align: justify; 
+}
+
+h2 {
+    font-family: Roboto mono;
+    justify-content: center;
+    text-align: center;
+}
+
+h3 {
+    font-family: Roboto mono;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.col {
+    justify-content: center;
+    padding-top: 1rem; 
+}
+
+.row-cols-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 14%;
+    padding-right: 14%;
+}
+
+.card {
+    width: 80%;
+    text-align: justify; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto Mono', monospace;
+    margin: 1rem; 
+}
+
+ul {
+    text-decoration: none; 
+    margin: 0 auto; 
+    padding: 0;
+    width: fit-content; 
+    list-style-position: inside; 
+    text-align: left; 
+}
+.li1 {
+    padding: 10px 0; 
+    list-style-type: disc; 
+}
+
+/* Estilos del carousel */
+
+.carousel {
+    justify-content: center;
+}
+
+/* Estilos de los elementos del carousel */
+
+.carousel-item {
+    /* Transición suave para elementos del carousel */
+    transition:  1.5s ease, opacity 1s ease-out;
+}
+
+/* Estilos del contenedor principal */
+
+main {
+    margin: 2rem;
+}
+
+/* Estilos de los campos de entrada en el formulario */
+
+#formulario-container input {
+    max-width: 100%;
+}
+
+/* Estilos del boton */
+
+.btn {
+    background-color: #C28E70;
+    border: black;
+}
+
+/* Estilos del boton al pasar el mouse por encima */
+
+.btn:hover {
+    background-color: #D5AD92;
+}
+
+/* Estilos del pie de página */
+
+footer {
+    font-family: Roboto mono;
+    background-color: #d5ad9282;
+}
+
+.redes a {
+    text-decoration: none; 
+    outline: none; 
+    border: none; 
+}
+
+.fab.fa-facebook-square {
+    color: #3b5998; 
+}
+
+.fab.fa-instagram-square {
+    color: #e4405f; 
+}   
