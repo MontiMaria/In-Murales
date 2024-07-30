@@ -120,7 +120,7 @@ ul {
 
 .carousel-item {
     /* Transicion suave para elementos del carousel */
-    transition:  1.5s ease, opacity 1s ease-out;
+    transition:  2s ease, opacity 1s ease-out;
 }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
