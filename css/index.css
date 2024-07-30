@@ -28,6 +28,11 @@ header {
     color: rgb(108, 108, 108);
 }
 
+.img-fluid {
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
 /* Estilos de los parrafos en el contenido principal */
 
 p {
