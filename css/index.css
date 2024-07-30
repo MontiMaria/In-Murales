@@ -1,5 +1,9 @@
 /* Estilos generales del cuerpo de la pagina */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: rgba(250, 235, 215, 0.527);
 }
@@ -117,6 +121,13 @@ ul {
 .carousel-item {
     /* Transicion suave para elementos del carousel */
     transition:  1.5s ease, opacity 1s ease-out;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: transparent;
+    background-size: 100% 100%; 
+    background-repeat: no-repeat;
+    filter: invert(70%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(60%) contrast(100%);
 }
 
 /* Estilos del contenedor principal */
